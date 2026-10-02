@@ -1,5 +1,11 @@
 # credpronto
 
+![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6)
+![React 18](https://img.shields.io/badge/React-18-61dafb)
+![Vercel Functions](https://img.shields.io/badge/API-Vercel%20Functions-000000)
+![Drizzle + Postgres](https://img.shields.io/badge/banco-Drizzle%20%2B%20Postgres-c5f74f)
+![Testes](https://img.shields.io/badge/testes-173%20passando-2e7d32)
+
 Esteira de análise de crédito para lojas de veículos: a loja cadastra uma proposta, o comprador
 recebe um link próprio para completar seus dados e enviar documentos, o sistema roda uma
 checagem de bureau simulada e um motor de decisão determinístico, e — se aprovado — gera uma
@@ -10,6 +16,13 @@ oferta de financiamento.
 > existe API pública no Brasil; ao terceiro, autorização do Banco Central (nem contrato resolve
 > pra uma pessoa física). Todo dado usado em desenvolvimento e nas demos é sintético; nunca use
 > CPF, nome ou documento reais neste projeto.
+
+<p align="center">
+  <img src="docs/painel.png" width="49%" alt="Painel da loja com a fila de propostas, contadores por situação e busca">
+  <img src="docs/proposta.png" width="49%" alt="Detalhe de uma proposta em revisão manual, com dados do comprador mascarados e consentimentos">
+</p>
+
+<sub>Capturas do ambiente local com o seed de demonstração (`npm run db:seed`). Todos os dados são sintéticos.</sub>
 
 ## Duas frentes
 
